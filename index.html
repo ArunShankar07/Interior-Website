@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="CRAYONZ - Modern, creative, and elegant interior design solutions that transform your space to improve comfort, functionality, and aesthetics.">
+    <title>Crayonz | Modern Interior Solutions</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap" rel="stylesheet">
+    <!-- Link to custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Sticky Navigation Header -->
+    <header class="header" id="header">
+        <div class="nav-container">
+            <a href="#home" class="logo">
+                CRAYONZ<span>DESIGN</span>
+            </a>
+            
+            <!-- Navigation Links -->
+            <nav class="navbar" id="navbar">
+                <ul class="nav-list">
+                    <li><a href="#home" class="nav-link active">Home</a></li>
+                    <li><a href="#services" class="nav-link">Services</a></li>
+                    <li><a href="#gallery" class="nav-link">Gallery</a></li>
+                    <li><a href="#about" class="nav-link">About</a></li>
+                    <li><a href="#contact" class="nav-link">Contact</a></li>
+                </ul>
+            </nav>
+
+            <div class="header-actions">
+                <!-- Theme Toggle Button -->
+                <button class="theme-toggle" id="themeToggle" aria-label="Toggle light/dark theme">
+                    <svg class="sun-icon" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M12 3v2.25m0 13.5V21M4.22 4.22l1.58 1.58m12.4 12.4l1.58 1.58M3 12h2.25m13.5 0H21M4.22 19.78l1.58-1.58m12.4-12.4l1.58-1.58M12 7.5a4.5 4.5 0 110 9 4.5 4.5 0 010-9z" />
+                    </svg>
+                    <svg class="moon-icon" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M21.752 15.002A9.718 9.718 0 0118 15.75c-5.385 0-9.75-4.365-9.75-9.75 0-1.33.266-2.597.748-3.752A9.753 9.753 0 003 11.25C3 16.635 7.365 21 12.75 21a9.753 9.753 0 009.002-5.998z" />
+                    </svg>
+                </button>
+                
+                <!-- Mobile Menu Toggle Button -->
+                <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation menu">
+                    <svg class="hamburger-icon" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+                    </svg>
+                    <svg class="close-icon" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M6 18L18 6M6 6l12 12" />
+                    </svg>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-bg">
+            <img src="https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?auto=format&fit=crop&w=1600&q=80" alt="Beautiful Modern Minimalist Living Room Interior">
+        </div>
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <h1 class="hero-title">Modern Interior Design</h1>
+            <p class="hero-subtitle">Transform your space with creative and elegant interior solutions.</p>
+            <a href="#services" class="btn btn-primary">Explore Designs</a>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services section-padding" id="services">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tagline">What We Do</span>
+                <h2 class="section-title">Our Services</h2>
+                <div class="section-divider"></div>
+            </div>
+
+            <div class="services-grid">
+                <!-- Service Card 1: Living Room -->
+                <div class="service-card">
+                    <div class="service-img-wrapper">
+                        <img src="https://images.unsplash.com/photo-1615874959474-d609969a20ed?auto=format&fit=crop&w=800&q=80" alt="Living Room Design" class="service-img">
+                    </div>
+                    <div class="service-content">
+                        <div class="service-icon-box">
+                            <!-- Sofa SVG Icon -->
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" class="service-icon">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 3v15m16.5-15v15M2.25 18h19.5M4.5 12h15M6 12a2.25 2.25 0 00-2.25 2.25v1.5h16.5v-1.5A2.25 2.25 0 0018 12H6z" />
+                            </svg>
+                        </div>
+                        <h3 class="service-title-text">Living Room Design</h3>
+                        <p class="service-desc">Creating comfortable, stylish, and functional lounge areas that serve as the heart of your home for family gatherings and relaxation.</p>
+                    </div>
+                </div>
+
+                <!-- Service Card 2: Bedroom Design -->
+                <div class="service-card">
+                    <div class="service-img-wrapper">
+                        <img src="https://images.unsplash.com/photo-1616594039964-ae9021a400a0?auto=format&fit=crop&w=800&q=80" alt="Bedroom Design" class="service-img">
+                    </div>
+                    <div class="service-content">
+                        <div class="service-icon-box">
+                            <!-- Bed SVG Icon -->
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" class="service-icon">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 10.5V18m0-7.5V4.5m0 6H20.25m0 0V18m0-7.5V4.5M3.75 18h16.5M3.75 14.25h16.5m-12-6a2.25 2.25 0 100-4.5 2.25 2.25 0 000 4.5zm7.5 0a2.25 2.25 0 100-4.5 2.25 2.25 0 000 4.5z" />
+                            </svg>
+                        </div>
+                        <h3 class="service-title-text">Bedroom Design</h3>
+                        <p class="service-desc">Designing cozy, personalized sanctuaries that promote restful sleep, incorporating warm lighting, texture, and smart storage systems.</p>
+                    </div>
+                </div>
+
+                <!-- Service Card 3: Modular Kitchen -->
+                <div class="service-card">
+                    <div class="service-img-wrapper">
+                        <img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=800&q=80" alt="Modular Kitchen Design" class="service-img">
+                    </div>
+                    <div class="service-content">
+                        <div class="service-icon-box">
+                            <!-- Kitchen/Cabinet/Chef SVG Icon -->
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" class="service-icon">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M12 6.042A8.967 8.967 0 006 3.75c-1.052 0-2.062.18-3 .512v14.25A8.987 8.987 0 016 18c2.305 0 4.408.867 6 2.292m0-14.25a8.966 8.966 0 016-2.292c1.052 0 2.062.18 3 .512v14.25A8.987 8.987 0 0018 18a8.967 8.967 0 00-6 2.292m0-14.25v14.25" />
+                            </svg>
+                        </div>
+                        <h3 class="service-title-text">Modular Kitchen Design</h3>
+                        <p class="service-desc">Blending ergonomic layouts with high-end culinary hardware, high storage capacity, and clean surfaces for the ultimate cooking experience.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section class="gallery section-padding" id="gallery">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tagline">Our Portfolio</span>
+                <h2 class="section-title">Design Gallery</h2>
+                <div class="section-divider"></div>
+            </div>
+
+            <div class="gallery-grid">
+                <!-- Gallery Item 1 -->
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?auto=format&fit=crop&w=800&q=80" alt="Minimalist Lounge Detail" class="gallery-img">
+                    <div class="gallery-overlay">
+                        <div class="gallery-info">
+                            <span class="gallery-category">Living Room</span>
+                            <h4 class="gallery-item-title">Minimalist Lounge</h4>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Gallery Item 2 -->
+                <div class="gallery-item">
+                    <img src="kitchen.jpg" alt="Contemporary Kitchen Detail" class="gallery-img">
+                    <div class="gallery-overlay">
+                        <div class="gallery-info">
+                            <span class="gallery-category">Kitchen</span>
+                            <h4 class="gallery-item-title">Contemporary Kitchen</h4>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Gallery Item 3 -->
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?auto=format&fit=crop&w=800&q=80" alt="Nordic Bedroom Style" class="gallery-img">
+                    <div class="gallery-overlay">
+                        <div class="gallery-info">
+                            <span class="gallery-category">Bedroom</span>
+                            <h4 class="gallery-item-title">Nordic Bedroom</h4>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Gallery Item 4 -->
+                <div class="gallery-item">
+                    <img src="dining room.jpg" alt="Chic Dining Area" class="gallery-img">
+                    <div class="gallery-overlay">
+                        <div class="gallery-info">
+                            <span class="gallery-category">Dining Area</span>
+                            <h4 class="gallery-item-title">Chic Dining Room</h4>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Gallery Item 5 -->
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1584622650111-993a426fbf0a?auto=format&fit=crop&w=800&q=80" alt="Luxury Bathroom details" class="gallery-img">
+                    <div class="gallery-overlay">
+                        <div class="gallery-info">
+                            <span class="gallery-category">Bathroom</span>
+                            <h4 class="gallery-item-title">Luxury Bathroom</h4>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Gallery Item 6 -->
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1507089947368-19c1da9775ae?auto=format&fit=crop&w=800&q=80" alt="Cozy Reading Corner" class="gallery-img">
+                    <div class="gallery-overlay">
+                        <div class="gallery-info">
+                            <span class="gallery-category">Reading Corner</span>
+                            <h4 class="gallery-item-title">Cozy Office Corner</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about section-padding" id="about">
+        <div class="container">
+            <div class="about-wrapper">
+                <div class="about-img-box">
+                    <img src="https://images.unsplash.com/photo-1618219908412-a29a1bb7b86e?auto=format&fit=crop&w=800&q=80" alt="Interior designer work detailing" class="about-img">
+                    <div class="about-img-badge">
+                        <span class="badge-num">10+</span>
+                        <span class="badge-text">Years of Design Excellence</span>
+                    </div>
+                </div>
+                
+                <div class="about-info">
+                    <span class="section-tagline">Who We Are</span>
+                    <h2 class="section-title">Designing Spaces That Define You</h2>
+                    <div class="section-divider-left"></div>
+                    
+                    <p class="about-text-lead">
+                        Interior design is far more than styling—it is the art of curating spaces that harmonize beauty with daily utility. 
+                    </p>
+                    <p class="about-text">
+                        A thoughtful design enhances your quality of life. By striking the perfect balance between layout efficiency, natural light integration, and a sophisticated color palette, we transform ordinary rooms into functional sanctuaries. We believe every space should inspire comfort, express personal character, and elevate the overall aesthetic of your home.
+                    </p>
+
+                    <div class="about-highlights">
+                        <div class="highlight-item">
+                            <span class="highlight-icon">✓</span>
+                            <span>Aesthetic Balance & Harmony</span>
+                        </div>
+                        <div class="highlight-item">
+                            <span class="highlight-icon">✓</span>
+                            <span>Ergonomic & Functional Layouts</span>
+                        </div>
+                        <div class="highlight-item">
+                            <span class="highlight-icon">✓</span>
+                            <span>Sustainable Material Curation</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact section-padding" id="contact">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tagline">Get In Touch</span>
+                <h2 class="section-title">Let's Create Your Dream Space</h2>
+                <div class="section-divider"></div>
+            </div>
+
+            <div class="contact-wrapper">
+                <!-- Contact Details Card -->
+                <div class="contact-details">
+                    <h3 class="details-title">Start Your Journey</h3>
+                    <p class="details-desc">Have a project in mind or want to consult with our designers? Reach out to us, and we will help you reimagine your interiors.</p>
+                    
+                    <div class="details-list">
+                        <!-- Contact Detail Item -->
+                        <div class="details-item">
+                            <div class="details-icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 6.75c0 8.284 6.716 15 15 15h2.25a2.25 2.25 0 002.25-2.25v-1.372c0-.516-.351-.966-.852-1.091l-4.423-1.106c-.44-.11-.902.055-1.173.417l-.97 1.293c-2.824-1.802-5.188-4.166-6.99-6.99l1.293-.97c.362-.271.528-.832.417-1.173L6.963 3.102a1.125 1.125 0 00-1.091-.852H4.5A2.25 2.25 0 002.25 4.5v2.25z" />
+                                </svg>
+                            </div>
+                            <div class="details-text">
+                                <span class="details-label">Call Us</span>
+                                <a href="tel:+919123456789" class="details-val">+91 91234 56789</a>
+                            </div>
+                        </div>
+
+                        <!-- Contact Detail Item -->
+                        <div class="details-item">
+                            <div class="details-icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="M21.75 6.75v10.5a2.25 2.25 0 01-2.25 2.25h-15a2.25 2.25 0 01-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0019.5 4.5h-15a2.25 2.25 0 00-2.25 2.25m19.5 0v.243a2.25 2.25 0 01-1.07 1.916l-7.5 4.615a2.25 2.25 0 01-2.36 0L3.32 8.91a2.25 2.25 0 01-1.07-1.916V6.75" />
+                                </svg>
+                            </div>
+                            <div class="details-text">
+                                <span class="details-label">Email Us</span>
+                                <a href="mailto:hello@crayonz.com" class="details-val">hello@crayonz.com</a>
+                            </div>
+                        </div>
+
+                        <!-- Contact Detail Item -->
+                        <div class="details-item">
+                            <div class="details-icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="M15 10.5a3 3 0 11-6 0 3 3 0 016 0z" />
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1115 0z" />
+                                </svg>
+                            </div>
+                            <div class="details-text">
+                                <span class="details-label">Studio Address</span>
+                                <span class="details-val">Nagercoil. Kanyakumari District</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Contact Form Card -->
+                <div class="contact-form-container">
+                    <form id="contactForm" class="contact-form" novalidate>
+                        <!-- Toast Message Notification -->
+                        <div id="formStatus" class="form-status"></div>
+
+                        <div class="form-group">
+                            <label for="name" class="form-label">Full Name</label>
+                            <input type="text" id="name" name="name" class="form-input" placeholder="e.g. Arun Shankar" required>
+                            <span class="error-message" id="nameError">Please enter your name</span>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="email" class="form-label">Email Address</label>
+                            <input type="email" id="email" name="email" class="form-input" placeholder="e.g. arun@gmail.com" required>
+                            <span class="error-message" id="emailError">Please enter a valid email address</span>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="message" class="form-label">Your Message</label>
+                            <textarea id="message" name="message" class="form-input form-textarea" placeholder="Tell us about your space..." required></textarea>
+                            <span class="error-message" id="messageError">Please write a message</span>
+                        </div>
+
+                        <button type="submit" class="btn btn-primary btn-block" id="submitBtn">
+                            <span>Send Message</span>
+                            <svg class="loading-spinner" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
+                                <circle class="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" stroke-width="4"></circle>
+                                <path class="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"></path>
+                            </svg>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-top">
+                <div class="footer-brand">
+                    <a href="#home" class="logo">
+                        Crayonz<span>DESIGN</span>
+                    </a>
+                    <p class="footer-desc">Crafting beautiful, functional, and balanced spaces that reflect your lifestyle. Modern design tailored to you.</p>
+                </div>
+                
+                <div class="footer-links">
+                    <h4 class="footer-title">Quick Links</h4>
+                    <ul class="footer-menu">
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#gallery">Gallery</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-socials">
+                    <h4 class="footer-title">Follow Us</h4>
+                    <div class="social-icons">
+                        <a href="#" aria-label="Instagram">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M6.827 6.175A2.31 2.31 0 119.24 8.586 2.3 2.3 0 016.827 6.175zM15.06 6.175a2.31 2.31 0 112.413 2.411 2.3 2.3 0 01-2.413-2.411zM10.937 13.918a2.31 2.31 0 112.413 2.411 2.3 2.3 0 01-2.413-2.411zM3 12a9 9 0 1118 0 9 9 0 01-18 0z" />
+                            </svg>
+                        </a>
+                        <a href="#" aria-label="Pinterest">
+                            <!-- Custom Pinterest style SVG -->
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M16.5 12a4.5 4.5 0 11-9 0 4.5 4.5 0 019 0zm0 0c0 1.657 1.007 3 2.25 3S21 13.657 21 12a9 9 0 10-2.636 6.364M16.5 12V8.25" />
+                            </svg>
+                        </a>
+                        <a href="#" aria-label="Facebook">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z" />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2026 Crayonz. All rights reserved. Built for academic purposes.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Link to custom JS -->
+    <script src="script.js"></script>
+</body>
+</html>
